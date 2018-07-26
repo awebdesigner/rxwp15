@@ -61,7 +61,7 @@ namespace inc\Theme\Options;
 				$settings = [
 					'primary_color',
 					'secondary_color',
-					'tartiary_color',
+					'accent_color',
 					'body_background_image',
 					'layout_width',
 					'layout_background_color',
@@ -230,11 +230,11 @@ namespace inc\Theme\Options;
 					'settings' => 'rxwp15_secondary_color',
 				]));
 
-				//Tartiary color: Color control
-				$wp_customize->add_control( new \WP_Customize_Color_Control( $wp_customize, 'rxwp15_tartiary_color', [
-					'label' => __( 'Tartiary color', 'rxwp15' ),
+				//Accent color: Color control
+				$wp_customize->add_control( new \WP_Customize_Color_Control( $wp_customize, 'rxwp15_accent_color', [
+					'label' => __( 'Accent color', 'rxwp15' ),
 					'section' => 'rxwp15_layout',
-					'settings' => 'rxwp15_tartiary_color',
+					'settings' => 'rxwp15_accent_color',
 				]));
 
 				//Hut background color: Color control
