@@ -1,0 +1,6 @@
+:root {
+    --color-primary: #000;
+    --color-secondary: #fff; /* Usually for buttons, headings */
+    --color-accent: #f00; /* Usually for small lines, hovered, current links */
+    --font: Helvetica, arial, sans-serif;
+}
